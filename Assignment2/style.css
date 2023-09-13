@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    color: rgb(2, 17, 16);
+    background-color: rgb(199, 182, 255);
+}
+
+/* p{
+    text-align: center;
+} */
+.tag-line{
+    color: rgb(43, 0, 255);
+    text-align: center;
+}
+
+.tree{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    object-position: 70% 70%;
+
+}
+
+.treeimage{
+    height: 330px;
+    padding-left: 5%;
+    width: 50%;
+
+
+}
+
+.treetypes{
+    text-align: left;
+    padding-right: 5%;
+    font-size: 20px;
+    border-bottom: red;
+    width: 50%;
+
+}
+
+button{
+    background-color: rgb(144, 238, 218);
+    margin-left: 50%;
+}
+
+button:hover{
+    background-color: rgb(198, 169, 238);
+}
+table, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+   
+}
+table{
+    margin-left: 33%;
+}
