@@ -1,0 +1,23 @@
+.card{
+    border: none;
+    border-radius: 15px;
+    padding: 2%;
+    box-shadow: 5px 5px 5px #00000016;
+}
+.section {
+    display: grid;
+    grid-template-columns: 2fr 2fr; /* Adjust column proportions as needed */
+   
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      grid-template-columns: 1fr; /* Stack the image and content */
+    }
+    .content{
+        order: 1;
+    }
+    .image{
+        order: 2;
+    }
+  }
